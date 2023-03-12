@@ -3,14 +3,13 @@ import styles from '../styles/components/header.module.css';
 
 const Header = () => {
     return (
-        <header >
+        <header>
             <a href="">
-                <img src="/public/img/logo.png" alt="" width="50px"/>
-                Bogino
+                Bogino Web
             </a>    
             <nav>
                 <ul>
-                    <li>Home</li>
+                    <li className={styles.active}>Home</li>    
                     <li>About</li>
                     <li>Skills</li>
                     <li>Education</li>
