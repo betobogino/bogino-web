@@ -1,15 +1,14 @@
 import { BsWordpress, BsFacebook, BsLinkedin, BsGithub, BsTwitter, BsInstagram } from 'react-icons/bs';
-import styles from '../styles/header.module.css';
+import styles from '../styles/components/header.module.css';
 
 const Header = () => {
     return (
-        <header>
+        <header >
             <a href="">
-                <BsWordpress />
+                <img src="/public/img/logo.png" alt="" width="50px"/>
                 Bogino
             </a>    
             <nav>
-                <img src="/public/img/logo.png" alt="" width="50px"/>
                 <ul>
                     <li>Home</li>
                     <li>About</li>
