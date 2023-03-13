@@ -3,12 +3,12 @@ import styles from '../styles/components/header.module.css';
 
 const Header = () => {
     return (
-        <header>
-            <a href="">
+        <header className={styles.header}>
+            <a href="" className={styles.a}>
                 Bogino Web
             </a>    
-            <nav>
-                <ul>
+            <nav className={styles.nav}>
+                <ul className={styles.ul}>
                     <li className={styles.active}>Home</li>    
                     <li>About</li>
                     <li>Skills</li>
