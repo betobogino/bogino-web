@@ -1,0 +1,38 @@
+.skills {
+    min-height: 100vh;
+    background-color: var(--dm-color-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+.h3 {
+    font-size: 2rem;
+}
+.wrapper {
+    background-color: var(--a);
+    width: 75%;
+    height: 75%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.5rem 1rem;
+    padding: 2rem;
+}
+.skill {
+    width: 125px;
+    height: 125px;
+    background-color: var(--dm-color-tertiary);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+    font-size: 1.5rem;
+}
+.name {
+    color: var(--c);
+}
