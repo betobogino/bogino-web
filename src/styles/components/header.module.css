@@ -8,6 +8,7 @@
     align-items: center;
     padding: 0 5rem;
     height: 5rem;
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3)
 }
 .a {
     color: var(--dm-color-tertiary);

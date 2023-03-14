@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <section className={styles.home}>
             <div className={styles.homeLeft}>
-                <h2 className={styles.h2}>Hi there, I am Alberto Bogino</h2>
+                <h1 className={styles.h1}>Hi there, I am Alberto Bogino</h1>
                 <p className={styles.p}>I am into <span className={styles.span}>development web</span></p>
                 <button className={styles.button}>Download CV <span className={styles.span}><FaArrowCircleDown /></span></button>
                 <div className={styles.div}>
