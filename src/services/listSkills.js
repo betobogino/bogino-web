@@ -17,4 +17,6 @@ export const listSkills = [
     {id: 16, name: 'Sass', icon: '/public/img/sass.png'},
     {id: 17, name: 'Tailwind', icon: '/public/img/tailwind.png'},
     {id: 18, name: 'Wordpress', icon: '/public/img/wordpress.png'},
+    {id: 19, name: 'Ionic', icon: '/public/img/ionic.png'},
+    {id: 20, name: 'React Native', icon: '/public/img/react-native.png'},
 ]
