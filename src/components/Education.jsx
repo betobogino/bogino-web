@@ -1,9 +1,11 @@
-import React from 'react'
+import styles from '../styles/components/education.module.css';
 
 const Education = () => {
-  return (
-    <div>Education</div>
-  )
+    return (
+        <div className={styles.education}>
+            <p>My Education</p>
+        </div>
+    )
 }
 
 export default Education
