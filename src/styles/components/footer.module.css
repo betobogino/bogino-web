@@ -1,3 +1,28 @@
 .footer {
-    min-height: 50vh;
+    min-height: 40vh;
+    background-color: var(--dm-color-tertiary);
+    padding: 2rem 5rem 0 5rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--c);
+    justify-content: space-between;
+}
+.top {
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+.left {
+    width: 60%;
+}
+.right {
+    width: 30%;
+}
+.left span,
+.right span {
+    font-size: 1.5rem;
+}
+.bottom {
+    text-align: center;
 }
