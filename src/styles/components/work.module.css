@@ -3,7 +3,8 @@
 }
 .work {
     min-height: 100vh;
-    padding: 5rem;
+    padding: 1rem 5rem;
+    background-color: var(--dm-color-tertiary);
 }
 .title {
     font-size: 2rem;

@@ -4,6 +4,7 @@ const Education = () => {
     return (
         <div className={styles.education}>
             <p>My Education</p>
+            
         </div>
     )
 }
