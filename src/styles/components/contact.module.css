@@ -1,3 +1,7 @@
 .contact {
     min-height: 100vh;
 }
+.wraper {
+    background-color: var(--a);
+    
+}
