@@ -1,7 +1,55 @@
 .contact {
     min-height: 100vh;
 }
+.top {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0 2rem;
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    margin: auto;
+    width: 60%;
+    padding-left: 2rem;
+}
+.form {
+    width: 100%;
+    padding: 2rem;
+}
 .wraper {
     background-color: var(--a);
-    
+    width: 75%;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+}
+.form label {
+    width: 100%;
+}
+.input {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.form label textarea {
+    height: 8rem;    
+}
+.btnSubmitBox {
+    text-align: right;
+}
+.btnSubmit {
+    width: 40%;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: var(--c);
+    background-color: var(--dm-color-tertiary);
 }
