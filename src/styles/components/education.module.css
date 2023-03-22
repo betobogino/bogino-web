@@ -2,3 +2,9 @@
     min-height: 100vh;
     text-align: center;
 }
+.title h3 {
+    font-size: 2rem;
+}
+.title span {
+    font-size: .8rem;
+}
