@@ -2,31 +2,33 @@
     width: 100%;
     min-height: 100vh;
     display: flex;
-    padding: 0 3rem 0 8rem;
-    background-color: var(--c);
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 8rem 0;
+    background-color: var(--dm-color-primary);
 }
-.homeLeft {
-    width: 50%;
+.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .h1 {
     font-size: 3rem;
     margin-bottom: 0;
-    color: var(--dm-color-tertiary);
+    color: var(--dm-color-white-1);
 }
 .p {
     font-size: 2rem;
 }
 .p span {
-    color: var(--i);
+    color: var(--dm-color-white-1);
 }
 .button {
     width: 40%;
     padding: 15px;
-    background-color: var(--dm-color-primary);
-    color: var(--dm-color-tertiary);
+    background-color: var(--dm-color-white-1);
+    color: var(--dm-color-primary-1);
     border: 1px;
     border-radius: 25px;
     font-weight: bold;
@@ -40,11 +42,13 @@
 button .span {
     margin-left: 10px;
 }
+.div {
+    width: 40%;
+}
 .ul {
     display: flex;
     flex-direction: revert;
     list-style: none;
-    width: 50%;
     justify-content: space-between;
     padding: 0;
     margin-top: 2rem;
@@ -52,7 +56,7 @@ button .span {
 .ul li {
     width: 45px;
     height: 45px;
-    background: var(--dm-color-tertiary);
+    background: var(--dm-color-light);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -61,30 +65,9 @@ button .span {
 }
 .icon {
     font-size: 20px;
-    color: var(--c);
+    color: var(--dm-color-primary);
     transition: color 0.2s ease-in-out;
 }
 .icon:hover {
     color: var(--dm-color-primary);
-}
-.homeRight {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.photo {
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    overflow: hidden;
-}
-.img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top;
-}
-.img:hover {
-    cursor: pointer;
 }

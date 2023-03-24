@@ -1,10 +1,10 @@
 .footer {
     min-height: 40vh;
-    background-color: var(--dm-color-tertiary);
+    background-color: var(--dm-color-primary);
     padding: 2rem 5rem 0 5rem;
     display: flex;
     flex-direction: column;
-    color: var(--c);
+    color: var(--dm-color-light);
     justify-content: space-between;
 }
 .top {

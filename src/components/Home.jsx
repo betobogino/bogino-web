@@ -5,7 +5,7 @@ import styles from '../styles/components/home.module.css';
 const Home = () => {
     return (
         <section className={styles.home}>
-            <div className={styles.homeLeft}>
+            <div className={styles.content}>
                 <h1 className={styles.h1}>Hi there, I am Alberto Bogino</h1>
                 <p className={styles.p}>I am into <span className={styles.span}>development web</span></p>
                 <button className={styles.button}>Download CV <span className={styles.span}><FaArrowCircleDown /></span></button>
@@ -27,11 +27,6 @@ const Home = () => {
                             <BsWhatsapp className={styles.icon}/>
                         </li>
                     </ul>
-                </div>
-            </div>
-            <div className={styles.homeRight}>
-                <div className={styles.photo}>
-                    <img src="/public/img/avatar.jpg" alt="Photo" width="250px" className={styles.img}/>               
                 </div>
             </div>
         </section>
