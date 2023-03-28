@@ -2,6 +2,15 @@ import { BsWordpress, BsFacebook, BsLinkedin, BsGithub, BsTwitter, BsInstagram }
 import styles from '../styles/components/header.module.css';
 
 const Header = () => {
+    window.addEventListener("scroll", function() {
+        var header = document.querySelector("header");
+        var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        if (scrollTop > 0) {
+            header.style.backgroundColor = "black";
+        } else {
+            header.style.backgroundColor = "transparent";
+        }
+    })
     return (
         <header className={styles.header}>
             <a href="" className={styles.a}>
