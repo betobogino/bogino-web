@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     padding: 2rem 8rem 0;
-    background-color: var(--bg-primary);
+    background-color: var(--v2-bg-primary);
     position: relative;
 }
 .home:before {
@@ -29,7 +29,7 @@
 .h1 {
     font-size: 3rem;
     margin-bottom: 0;
-    color: var(--color-light);
+    color: var(--v2-bg-tertiary);
 }
 .p {
     font-size: 2rem;

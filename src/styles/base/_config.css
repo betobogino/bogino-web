@@ -1,15 +1,24 @@
 :root {
-    --bg-primary: #1D1E26;
+    /* --bg-primary: #1D1E26;
     --bg-secondary: #2b2b36;
-    --bg-tertiary: #FFB300;
+    --bg-tertiary: #FFB300; */
 
-    --color-primary: #028DF1;
+    /* --color-primary: #028DF1;
     --color-light: #FFF;
     --color-dark: #111;
 
     --emphasi-1: #0A192F;
-    --emphasi-2: #243447; 
+    --emphasi-2: #243447;  */
      
+    --v2-bg-primary: #20303F;
+    --v2-bg-secondary: #3A566F;
+    --v2-bg-tertiary: #4E6F8A;
+
+    --v2-bg-quarter: #FFB300;
+    --v3-bg-quarter: #faff00;
+    --v2-bg-fifth: #fcff64;
+    --v2-bg-sixth: #ffffc7;
+
     /* --a: #FFAF00;
     --b: #4C4C4C;
     --c: #F2F2F2;
