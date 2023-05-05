@@ -37,3 +37,22 @@
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
 }
+.button {
+    width: 40%;
+    padding: 15px;
+    background-color: var(--v2-bg-quarter);
+    color: var(--v2-color-black);
+    border: 1px;
+    border-radius: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.button:hover {
+    cursor: pointer;
+}
+button .span {
+    margin-left: 10px;
+}

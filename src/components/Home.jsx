@@ -1,5 +1,4 @@
 import { BsArrowDown, BsLinkedin, BsInstagram, BsFacebook, BsGithub, BsWhatsapp } from 'react-icons/bs';
-import { FaArrowCircleDown } from 'react-icons/fa'
 import styles from '../styles/components/home.module.css';
 
 const Home = () => {
@@ -8,7 +7,6 @@ const Home = () => {
             <div className={styles.content}>
                 <h1 className={styles.h1}>Hi there, I am Alberto Bogino</h1>
                 <p className={styles.p}>I am into <span className={styles.span}>development web</span></p>
-                <button className={styles.button}>Download CV <span className={styles.span}><FaArrowCircleDown /></span></button>
                 <div className={styles.div}>
                     <ul className={styles.ul}>
                         <li>

@@ -1,4 +1,5 @@
 import styles from '../styles/components/about.module.css';
+import { FaArrowCircleDown } from 'react-icons/fa';
 
 const About = () => {
     return (
@@ -17,6 +18,7 @@ const About = () => {
                     <p className={styles.p}>Soy un desarrollador de Córdoba, Argentina. Autodidacta desde mis inicios, me adentré en este mundo hace alrededor de 5 años, iniciando con cursos dictados por la Univesidad Tecnológica Nacional y apoyándome en distintas plataformas educativas online y creadores de contenido Tech. 
 Soy un apasionado por la tecnología y por el aprendizaje, me mantengo en constante formación para mejorar mis habilidades de codificación y lograr mejores resultados en mis desarrollos.
 He trabajo en equipos de hasta doce personas, ocupandome del Front-end, logrando llevar adelante distintas aplicaciones web entregadas en tiempo y forma; también he estado al frente de diversos proyectos haciendome cargo de las distintas etapas tales como el diseño, desarrollo e implementación.</p>
+                    <button className={styles.button}>Download CV <span className={styles.span}><FaArrowCircleDown /></span></button>
                 </div>
             </div>
         </div>

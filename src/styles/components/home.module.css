@@ -29,32 +29,13 @@
 .h1 {
     font-size: 3rem;
     margin-bottom: 0;
-    color: var(--v2-bg-tertiary);
+    color: var(--v2-bg-sixth);
 }
 .p {
     font-size: 2rem;
 }
 .p span {
     color: var(--color-light);
-}
-.button {
-    width: 40%;
-    padding: 15px;
-    background-color: var(--color-primary);
-    color: var(--color-light);
-    border: 1px;
-    border-radius: 25px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-}
-.button:hover {
-    cursor: pointer;
-}
-button .span {
-    margin-left: 10px;
 }
 .div {
     width: 40%;
@@ -65,12 +46,12 @@ button .span {
     list-style: none;
     justify-content: space-between;
     padding: 0;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 .ul li {
     width: 45px;
     height: 45px;
-    background: var(--bg-secondary);
+    background: var(--v2-bg-quarter);
     border-radius: 50%;
     display: flex;
     justify-content: center;
